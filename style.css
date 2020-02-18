@@ -1,18 +1,85 @@
 body{
-background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuHoNxciSuz9ojJTf8YomhKwPlFHh6oS0c8csiQHrM912OLzxZ");
+background-image:url("https://wallpaperaccess.com/full/24866.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-size:cover;
+
+padding-left:50px;
+padding-right:50px;
 }
 			
 h1 {
 color: maroon;
 margin-left: 40px;
-
+text-shadow:4px 4px 8px black;
 }
-
-p{
+.special{
 color:blue;
+font-style:italic;
+font-family:georgia,garamond,serif,monospace regular;
+font-size:xx-large;
+text-shadow:4px 4px 8px black;
+}
+
+.font-weight{
+font-weight:bold;
 
 
 }
+
+.font-bolder{
+font-weight:bolder;
+
+}
+.font-500{
+font-weight:500;
+}
+.color{
+color:red;
+}
+.text-dir{
+direction:rtl;
+}
+.space{
+letter-spacing:5px;
+
+}
+.space-w{
+word-spacing:5px;
+}
+
+.indent{
+text-indent:1cm;
+text-decoration:blink;
+}
+.p1{
+text-align:right;
+text-decoration:underline;
+text-transform:capitalize;
+}
+.p2{
+text-align:center;
+text-decoration:line-through;
+text-transform:uppercase;
+}
+.p3{
+text-align:left;
+text-decoration:overline;
+text-transform:lowercase;
+
+}
+img{
+
+ box-shadow: 10px 10px 10px black;
+height:200px;
+width:200px;
+
+
+}
+img:hover{
+border:3px solid blue;
+height:500px;
+width:500px;
+opacity: .3;
+}
+
