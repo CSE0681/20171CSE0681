@@ -1,0 +1,204 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background-image:url("https://wallpaperaccess.com/full/24866.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+
+padding-left:50px;
+padding-right:50px;
+}
+			
+.h1{
+color: maroon;
+margin-left: 40px;
+text-shadow:4px 4px 8px black;
+}
+.special{
+color:blue;
+font-style:italic;
+font-family:georgia,garamond,serif,monospace regular;
+font-size:xx-large;
+text-shadow:4px 4px 8px black;
+}
+
+.font-weight{
+font-weight:bold;
+
+
+}
+
+.font-bolder{
+font-weight:bolder;
+
+}
+.font-500{
+font-weight:500;
+}
+.color{
+color:red;
+}
+.text-dir{
+direction:rtl;
+}
+.space{
+letter-spacing:5px;
+
+}
+.space-w{
+word-spacing:5px;
+}
+
+.indent{
+text-indent:1cm;
+text-decoration:blink;
+}
+.p1{
+text-align:right;
+text-decoration:underline;
+text-transform:capitalize;
+margin:25px 50px 75px 100px;
+}
+.p2{
+text-align:center;
+text-decoration:line-through;
+text-transform:uppercase;
+}
+.p3{
+text-align:left;
+text-decoration:overline;
+text-transform:lowercase;
+
+}
+img{
+
+ box-shadow: 10px 10px 10px black;
+height:200px;
+width:200px;
+
+border: outset lime;
+border-width:2px 10px 30px 20px;
+border-color:red green blue yellow;
+border-top-style:dotted;
+border-right-style:double;
+border-bottom-style:inset;
+border-left-style:dashed;
+}
+img:hover{
+
+height:500px;
+width:500px;
+border-width:5px;
+border-radius:50%;
+opacity: .3;
+}
+#id1{
+text-align:center;
+text-transform:uppercase;
+color:white;
+}
+p{
+margin:25px 50px 75px 100px;	
+				
+}
+.margin{
+width:500px;
+margin:auto;
+border:1px dashed red;
+padding-top:25px;
+padding-right:50px;
+padding-bottom:14px
+padding-left:25px;
+color:white;
+}
+.name{
+margin:1cm;
+padding:5px;
+border:2px dashed green;
+width:200px;
+text-align:center;
+}
+li{
+display:block;
+color:white;
+}
+a{
+display:block;
+}
+.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+
+}
+.b{
+display:inline-block;
+width:100px;
+height:300px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+}
+.c{
+display:block;
+width:100px;
+height:300px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+
+
+}
+a{
+display:inline;
+padding:5px;
+}
+.q
+{
+color:black;
+}
+.w{
+color:green;
+text-decoration:none;
+}
+.e{
+border:2px solid green;
+padding:10px;
+width:100px;
+text-align:center;
+color:black;
+background-color:white;
+text-decoration:none;
+}
+.r
+{
+border:2px solid maroon;
+padding:10px;
+color:white;
+background-color:maroon;
+width:100px;
+text-align:center;
+text-decoration:none;
+}
+.e:hover{
+background-color:black;
+color:white;
+}
+a:visited{
+color:green;
+}
+a:hover{
+border:2px solid white;
+}
+a:active{
+color:black;
+}
