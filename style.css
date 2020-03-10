@@ -1,3 +1,7 @@
+*{
+margin:0;
+padding:0;
+}
 body{
 background-image:url("https://wallpaperaccess.com/full/24866.jpg");
 background-repeat:no-repeat;
@@ -8,7 +12,7 @@ padding-left:50px;
 padding-right:50px;
 }
 			
-h1 {
+.h1{
 color: maroon;
 margin-left: 40px;
 text-shadow:4px 4px 8px black;
@@ -97,12 +101,164 @@ text-transform:uppercase;
 color:white;
 }
 p{
-margin:25px 50px 75px 100px;
+margin:25px 50px 75px 100px;	
+				
 }
 .margin{
-width:300px;
+width:500px;
 margin:auto;
-border:1px solid red;
+border:1px dashed red;
+padding-top:25px;
+padding-right:50px;
+padding-bottom:14px
+padding-left:25px;
+color:white;
+}
+.name{
+margin:1cm;
+padding:5px;
+border:2px dashed green;
+width:200px;
+text-align:center;
+}
+li{
+display:block;
+color:white;
+}
+a{
+display:block;
+}
+.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+
+}
+.b{
+display:inline-block;
+width:100px;
+height:300px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+}
+.c{
+display:block;
+width:100px;
+height:300px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+
+
+
+}
+a{
+display:inline;
+padding:5px;
+}
+.q
+{
+color:black;
+}
+.w{
+color:green;
+text-decoration:none;
+}
+.e{
+border:2px solid green;
+padding:10px;
+width:100px;
+text-align:center;
+color:black;
+background-color:white;
+text-decoration:none;
+}
+.r
+{
+border:2px solid maroon;
+padding:10px;
+color:white;
+background-color:maroon;
+width:100px;
+text-align:center;
+text-decoration:none;
+}
+.e:hover{
+background-color:black;
+color:white;
+}
+a:visited{
+color:green;
+}
+a:hover{
+border:2px solid white;
+}
+a:active{
+color:black;	
+}
+.ele::first-line{
+color:#ff0000;
+font-variant:small-caps;
+}
+.first::first-letter{
+color:#ff0000;
+font-size:xx-large;
+}
+::selection{
+color:red;
+background:yellow;
+}
+.fdiv{
+background-image:url("/home/Sem6B10/Desktop/20171cse0681/wood-2045379__340.webp");
+background-size:cover;
+height:150px;
+width:900px;
+padding-top:50px;
+padding-right:50px;
+padding-bottom:25px
+padding-left:50px;
+border:5px solid black;
+
+
+}
+.sdiv{
+background-color:white;
+height:50px;
+width:600px;
+opacity: .3;
+padding-top:30px;
+padding-bottom:30px
+
+}
+
+
+#grad{ 
+background-image:radial-gradient(yellow,red,blue);
+height:200px;
+width:200px;
+
+}
+#grad1{ 
+background-image:repeating-linear-gradient(yellow,red 20%,blue 10%);
+height:200px;
+width:200px;
+}
+#grad2{ 
+background-image:linear-gradient(to right,yellow,red,blue,orange,green,indigo,violet);
+height:200px;
+width:200px;
+}
+#grad3{ 
+background-image:linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));
+height:200px;
+width:200px;
+
 }
 
 
