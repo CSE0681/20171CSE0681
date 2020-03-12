@@ -86,13 +86,14 @@ border-top-style:dotted;
 border-right-style:double;
 border-bottom-style:inset;
 border-left-style:dashed;
+transition:width 2s,height 4s;
 }
 img:hover{
 
 height:500px;
 width:500px;
 border-width:5px;
-border-radius:50%;
+
 opacity: .3;
 }
 #id1{
@@ -226,6 +227,7 @@ padding-left:50px;
 border:5px solid black;
 
 
+
 }
 .sdiv{
 background-color:white;
@@ -260,5 +262,113 @@ height:200px;
 width:200px;
 
 }
+.trans{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s;
 
+}
+.trans:hover{
+width:300px;
+ position: relative;
+ 
+}
+.trans2{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s,transform 2s;
+}
+.trans2:hover{
+width:300px;
+height:300px;
+transform:rotate(180deg);
+border-radius:2px;
+background:yellow;
+
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:red;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+.trans:hover .overlay {
+  width: 100%;
+}
+.animation{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example;
+animation-duration:30s;
+}
+@keyframes example{
+from{background-color:red;}
+to{background-color:yellow;}
+
+}
+.animation2{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:ani;
+animation-duration:30s;
+}
+@keyframes ani{
+0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+
+.red{
+width:100px;
+height:100px;
+background:blue;
+transition:transform 2s;
+
+}
+.green{
+width:100px;
+height:100px;
+background:white;
+transition:transform 2s;
+margin
+
+}
+.yellow{
+width:100px;
+height:100px;
+background:orange;
+transition:transform 2s;
+}
+
+.red:hover{
+transform:rotate(180deg);
+border-radius:2px;
+background:green;
+
+}
+.green:hover{
+transform:rotate(180deg);
+border-radius:2px;
+background:yellow;
+
+}
+.yellow:hover{
+
+transform:rotate(180deg);
+border-radius:2px;
+background:red;
+ 
+}
 
